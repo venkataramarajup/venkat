@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="add">
+		<ul>
+			<li>chair<input type="textfield" id="text1"></li>
+			<li>table<input type="textfield" id="text2"></li>
+			<li>shoerack<input type="textfield" id="text3"></li>
+			<button onclick="add()">add task</button>
+		</ul>
+	</div>
+	<script>
+		function add(){
+			var chair=document.getElementById('text1');
+			var table=document.getElementById('text2');
+			var shoerack=document.getElementById('text3');
+			var div=document.getElementById('add');
+
+			var ul=document.createElement('ul');
+			var li1=document.createElement('li');
+			var li2=document.createElement('li');
+			var li3=document.createElement('li');
+			ul.appendChild(li1);
+			ul.appendChild(li2);
+			ul.appendChild(li3);
+			div.appendChild(ul);
+
+			li1.innerText=chair.value;
+			li2.innerText=table.value;
+			li3.innerText=shoerack.value;
+
+
+		}
+	</script>
+	
+
+</body>
+</html>
