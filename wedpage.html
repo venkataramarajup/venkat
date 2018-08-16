@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title></title>
+	 <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
 	<style type="text/css">
 		html,head,h1,h2,h3,h4,h5,h6,ul,ol,li{
 			padding: 0px;
@@ -56,24 +58,91 @@
 		}
 		div.content1 h2,h3{
 			text-align: center;
+			padding: 10px;
+			background-color: yellow;
+			color:black;
 		}
-		div.content div.content2{
-			background-color: white;
-			width:800;
+		div.z { 
+			background-color: red;
+			
+			
 		}
 		
-		div.content div.content2 div.member{
-			float:left;
+		div.z div.a {
+			float: left;
 			width: 30%;
-			padding: :30px;
-			margin: 10px;			
+			padding: 10px;
+			margin: 0px;
 		}
-		div.content div.content2 div.member img{
-			width: 70%;
+		div.z div.b {
+			float: left;
+			width: 30%;
+			padding: 10px;
+			margin: 0px;
 		}
-		div.content div.content2 div.member p{
+		div.z div.c {
+			float: left;
+			width: 30%;
+			padding: 10px;
+			margin: 0px;
+		}
+		div.clearfix{
+			clear:both;
+		}
+		div.tour{
+			background-color: pink;
+			width:100%;
+
+
+		}
+		div.dates{
+			width: 30%;
+			position: relative;
+		}
+		div.tour div.img1{
+			float: left;
+			width: 30%;
+			padding:15px;
+			color: white;
+		}
+		div.tour div.img2{
+			float: left;
+			width: 30%;
+			padding:15px;
+			color: white;
+		}
+		div.tour div.img3{
+			float: left;
+			width: 30%;
+			padding:15px;
+			color: white;
+		}
+		br.clearfix{
+			clear: both;
+		}
+		div.contact div.contact1 h2,p{
 			text-align: center;
 		}
+		div.contact div.contact3{
+			float: right;
+			padding: 0px;
+			
+
+		}
+		br.clearfix{
+			clear: both;
+		}
+
+		 #map {
+        height: 500px;
+        width:100%;
+      }
+       /*Optional: Makes the sample page fill the window. */*/
+      /*html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }*/
 	</style>
 </head>
 <body>
@@ -102,37 +171,101 @@
 				<h3>We love music</h3>
 				<p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 			</div>
-			<div class="content2">
-				<div class="member member1">
-					<p>name</p>
-					<img src="images/bandmember.jpg">
-				</div>
-				<div class="member member2">
-					<p>name</p>
-					<img src="images/bandmember.jpg">
-				</div>
-				<div class="member member3">
-					<p>name</p>
-					<img src="images/bandmember.jpg">
-				</div>
-			</div>
 		</div>
-		<div class="content3">
-			<div class="text1">
-				<h2>tour dates</h2>
-				<h2>Remember to book your tickets!</h2>
+		<div class="z">
+
+		<div class=" member a">
+			
+				<p>name</p>
+				<img src="images/bandmember.jpg">
+			
+		</div>
+			<div class="member b">
+				
+				<p>name</p>
+				<img src="images/bandmember.jpg">
+				
 			</div>
-			<div class="text2">
-				<input type="textfield" placeholder="october">
-				<input type="textfield" placeholder="november">
-				<input type="textfield" placeholder="december">
+			<div class="member c">
+				
+					<p>name</p>
+					<img src="images/bandmember.jpg">
+			
 			</div>
-			<div class="text3">
-				<img src="images/newyork.jpg">
+			<div class="clearfix"></div>
+		</div>
+		<div class="tour">
+			<div class="tour1">
+				<h4 style="text-align: center;">tour dates</h4>
+				<p style="text-align: center;">welcome to this page</p>
+			</div>
+			<div class="dates">
+				<li><input type="text" placeholder="october"></li>
+				<li><input type="text" placeholder="nov"></li>
+				<li><input type="text" placeholder="dec"></li>
+			
+			</div>
+			<div class="img1">
 				<img src="images/paris.jpg">
-				<img src="images/sanfran.jpg">
-				<br class="clearfix">
+				<p>New York</p>
+				<p>Fri 27 Nov 2016</p>
+				<p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+				<button>click me</button>
 			</div>
+			<div class="img2">
+				<img src="images/newyork.jpg">
+				<p>New York</p>
+				<p>Fri 27 Nov 2016</p>
+				<p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+				<button>click me</button>
+			</div>
+			<div class="img3">
+				<img src="images/sanfran.jpg">
+				<p>New York</p>
+				<p>Fri 27 Nov 2016</p>
+				<p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+				<button>click me</button>
+			</div>
+			<br class="clearfix">
+	</div>
+	<div class="contact">
+		<div class="contact1">
+			<h2>contact</h2>
+			<p>drop a note</p>
 		</div>
+			<div class="contact2">
+			
+				<i> Chicago, US</i></br>
+				<i>phoneno:9481</i></br>
+				<i>email:@email.com</i></br>
+			</div>
+			<div class="contact3">
+				<form>
+		
+					<input type="text" name="name" placeholder="name">
+					<input type="text" name="email" placeholder="email"></br>
+					<input type="textfield" name="message" placeholder="message"></br>
+					<button>send</button>
+		
+				</form>
+			</div>
+			<br class="clearfix">
+		
+	</div>
+	 <div id="map">
+    <script>
+      var m;
+      function m() {
+        m = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 17.148440, lng: 78.343880},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=m"
+    async defer></script>
+		</div>
+		<!-- AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk -->
+
 </body>
 </html>

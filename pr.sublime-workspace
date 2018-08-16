@@ -1,0 +1,297 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"text-",
+				"text-align\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"bac",
+				"background-image\tproperty"
+			],
+			[
+				"li",
+				"list-style-type\tproperty"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"tex",
+				"text1"
+			],
+			[
+				"id",
+				"id1"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"dataO",
+				"dataOfOrders"
+			],
+			[
+				"ite",
+				"itemCost"
+			],
+			[
+				"it",
+				"itemCost1"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"f",
+				"firstName"
+			],
+			[
+				"a",
+				"avaliablemainItem"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"img",
+				"border-image\tproperty"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/mean/practise/wedpage.html",
+		"/E/mean/practise/obj.html",
+		"/E/mean/practise/sirweb.html",
+		"/E/mean/practise/online.html",
+		"/E/mean/practise/map.html",
+		"/E/mean/practise/practise.html",
+		"/E/mean/practise/maps3.html",
+		"/E/mean/practise/todo.js",
+		"/E/mean/practise/todo.html",
+		"/E/mean/Sublime Text 3/Packages/1st/2nd/2nd.html",
+		"/E/mean/Sublime Text 3/Packages/js.html",
+		"/E/mean/practise/js/jst.html",
+		"/E/mean/practise/maps2.html",
+		"/E/mean/Sublime Text 3/Packages/1st/images/IMG-20171230-WA0004.jpg",
+		"/E/mean/Sublime Text 3/Packages/1st/2nd/pr.html",
+		"/E/mean/Sublime Text 3/Packages/1st/a.html",
+		"/E/mean/Sublime Text 3/Packages/1st/ny.jpg",
+		"/E/mean/Sublime Text 3/Packages/project.html",
+		"/E/mean/Sublime Text 3/Packages/sample.html",
+		"/E/mean/Sublime Text 3/Packages/ny.jpg",
+		"/E/mean/Sublime Text 3/Packages/project3.html",
+		"/E/mean/Sublime Text 3/Packages/mynew.html",
+		"/E/mean/Sublime Text 3/Packages/project2.html",
+		"/E/mean/practise/my2.html",
+		"/E/mean/practise/my1",
+		"/E/mean/practise/sublime_text.exe",
+		"/E/mean/practise/h3",
+		"/E/mean/practise/h4",
+		"/E/mean/practise/1project.html"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pr.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

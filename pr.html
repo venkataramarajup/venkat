@@ -13,37 +13,28 @@
 	<script type="text/javascript">
 		console.log(10)
 		var mainItem = ['biryani','noodles','jeerarice', 'pulka','kajurice','roti'];
+		var mainc;
 		var currys = ['paneer','kajucurry','mixedvegcurry'];
+		var cur;
 		function goToParadise(main , curry){
-			for(var i = 0; i < mainItem.length ; i = i+1)
-			{
-				for(var j=0;j<currys.length;j=j+1)
+			for(var i = 0; i < mainItem.length ; i = i+1){
+				if(mainItem[i]==main){
+					console.log('avaliable');
+					mainc=main
+				}
+			}
+			for(var j=0;j< currys.length;j=j+1){
+				if(currys[j]==curry){
+					console.log('avaliable');
+					cur=curry;
+				}
+			}
+				if(mainc&&cur)
 				{
-					if((mainItem[i]===main) && (currys[j]===curry))
-					{
-						{
-							console.log(main+curry+'is avaliable');
-						}
-					}
-					
-						else
-						{
-							console.log(main+curry+'not avaliable');
-						}
-					}
-				}	
-			}	
-		
-	
-	
-			
+					console.log(mainc +cur +'avaliable');
+				}
+			}
 				
-			
-		
-	
-	
-		
-	
 		goToParadise('roti','kajucurry');
 		var a = 10;
 		var b = a;
