@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+	
+	function run()
+	{
+		console.log("print me before set timeout")
+	}
+
+	var setint = setInterval(function(){
+		console.log('print me aftr 3sec');
+	},3000);
+
+	function run1()
+	{
+		run()
+		console.log("print me aftr set timeout");
+	}
+	run1()
+	 // 	clearInterval(setint)
+	 // 	}
+	 // 	clearint()
+	 // function clearint()
+
+	 function employ(lang){
+	 	return function(name){
+	 		console.log(name+lang);
+	 	}
+	 }
+	var newFn=employ('english');
+	newFn('anand');
+
+</script>
+
+
+</body>
+</html>
